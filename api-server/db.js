@@ -3,7 +3,8 @@ const mysql = require('mysql2/promise');
 
 // Créer un pool de connexions
 const pool = mysql.createPool({
-  host: 'localhost',
+  host:********@shuttle.proxy.rlwy.net:3561
+ // host: 'localhost',
   user: 'root',     // À modifier selon votre configuration
   password: '',     // À modifier selon votre configuration
   database: 'todo_app',
